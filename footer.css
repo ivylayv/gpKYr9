@@ -1,0 +1,116 @@
+.footer {
+  background-color: #0f2f2d;
+  padding: 50px 20px;
+  margin-top: 40px;
+  color: #f9f9f9;
+}
+
+.footer-logo-row {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Column styles */
+.footer-column {
+  padding: 10px 20px;
+}
+
+/* Headings */
+.footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* List */
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+.footer-list i {
+  margin-right: 6px;
+}
+.footer-list a {
+  text-decoration: none !important;
+  color: #f9f9f9;
+}
+
+.footer-list a:hover {
+  color: #8fcdb1;
+}
+
+
+/* Icons */
+.footer-icons i {
+  font-size: 28px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer-icons i:hover {
+  opacity: 0.7;
+}
+
+/* NEWSLETTER BOX */
+.newsletter-text {
+  margin-bottom: 12px;
+}
+
+.newsletter-box {
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px #00000025;
+}
+
+.newsletter-box input {
+  border: none;
+  padding: 12px;
+  width: 100%;
+  outline: none;
+}
+
+.newsletter-box button {
+  background-color: #0A5B0A;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+
+.newsletter-box button:hover {
+  opacity: 0.9;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .newsletter-box {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,146 @@
+
+.outer-welcome {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px 60px;
+  background: transparent;
+}
+
+.welcome-inner {
+  width: 420px;                   
+  background: #d8e7d4;               
+  border-radius: 28px;
+  padding: 26px 20px 10px;
+  box-sizing: border-box;
+}
+
+.welcome-inner h1 {
+  font-size: 34px;
+  text-align: center;
+  margin: 6px 0 6px;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+.welcome-paragraph {
+  text-align: center;
+  margin: 6px 24px 20px;
+  line-height: 1.4;
+  color: #243023;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-fieldset {
+  width: 100%;
+  background: #d1e3ce;              
+  border: 3px solid #000000;       
+  border-radius: 26px;
+  padding: 28px 28px 22px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* legend centered large "Login" */
+.login-legend {
+  width: auto;
+  margin: 0 auto 6px;
+  padding: 0 8px;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  color: #0a0a0a;
+}
+
+.legend-sub {
+  text-align: center;
+  margin-top: -4px;
+  margin-bottom: 18px;
+  color: #1f2a1f;
+}
+
+
+/* One pill-shaped input containing icon + text */
+.pill-input {
+    display: flex;
+    align-items: center;
+    background: rgba(112,148,106,0.35);  /* same greenish pill */
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: none;
+    height: 45px;
+}
+
+
+.pill-input i {
+    font-size: 20px;
+    color: #1a331a;
+    margin-right: 12px; 
+}
+
+
+.pill-input input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    color: #ffffff;
+}
+
+.pill-input input::placeholder {
+    color: rgba(255,255,255,0.65);
+}
+
+.icon-input input {
+  flex: 1;
+  height: 44px;
+  padding: 0 20px;
+  border-radius: 30px;
+  border: none;
+  background: rgba(112,148,106,0.35); 
+  font-size: 16px;
+  color: #efefef;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+.icon-input input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+.pill-btn {
+  display: block;
+  margin: 18px auto 10px;
+  padding: 10px 36px;
+  border-radius: 24px;
+  background: rgba(112,148,106,0.9);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #071406;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+
+.pill-btn:hover { transform: translateY(-1px); }
+
+
+.signup-line {
+  margin-top: 14px;
+  font-size: 15px;
+  color: #111;
+  text-align: left;
+  padding-left: 6px;
+}
+
+.signup-line a {
+  text-decoration: underline;
+  color: #0b2b0b;
+}
